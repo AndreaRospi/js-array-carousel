@@ -24,24 +24,35 @@ img{
     height: 70%;
     position: relative;
 }
-.box-fullimg{
+
+
+#fullimg .full-img-box{
+    display: none;
     height: 100%;
+}
+
+#fullimg .box-fullimg{
+    height: 100%;
+}
+
+#fullimg .full-img-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #fullimg .active{
     display: block;
 }
 
-h2{
-    position: absolute;
-    bottom: 40px;
-    right: 20px;
-}
 
-p{
+
+.text-box{
+    display: none;
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 5%;
+    right: 2%;
+    text-align: right;
 }
 
 #libreria{
