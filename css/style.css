@@ -3,3 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fullimg{
+    width: 50vw;
+    height: 70%;
+}
+
+#libreria{
+    width: 20vw;
+    height: 70%;
+}
+
+/* debug */
+
+#fullimg{
+    background-color: indigo;
+}
+
+#libreria{
+    background-color: magenta;
+}
