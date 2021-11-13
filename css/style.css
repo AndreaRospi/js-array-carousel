@@ -11,10 +11,6 @@ img{
     object-fit: cover;
 }
 
-#libreria .active{
-    opacity: 1;
-    border: 2px solid gray;
-}
 
 .container{
     height: 100vh;
@@ -27,6 +23,13 @@ img{
     width: 50vw;
     height: 70%;
     position: relative;
+}
+.box-fullimg{
+    height: 100%;
+}
+
+#fullimg .active{
+    display: block;
 }
 
 h2{
@@ -88,7 +91,7 @@ p{
 
 #libreria .active img{
     opacity: 1;
-    border: 2px solid gray;
+    border: 2px solid lightgray;
 }
 
 /* debug */
