@@ -85,7 +85,7 @@ p{
 
 #libreria .img-box img{
     display: block;
-    opacity: .6;
+    opacity: .4;
     object-fit: cover;
 }
 
